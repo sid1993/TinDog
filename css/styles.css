@@ -6,6 +6,23 @@ h1{
     color: white;
 }
 
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+}
+.pad-top{
+    padding-top: 5%;
+}
+
+.navbar-nav > li{
+    padding-bottom: 4%;
+    margin-left:5%;
+    margin-right:5%;
+    font-size: 1.5rem;
+  }
 .container-fluid{
     padding: 3% 15%;
     max-height: 46em;
