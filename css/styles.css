@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 h1{
     font-family: 'Montserrat-Black', sans-serif;
     line-height: 1.5;
@@ -17,29 +20,61 @@ h2{
     padding-top: 5%;
 }
 
-.navbar-nav > li{
+.nav-item{
     padding-bottom: 4%;
     margin-left:5%;
     margin-right:5%;
     font-size: 1.5rem;
   }
+  .navbar{
+      padding-left: 0%;
+  }
+  .download-button{
+      margin: 5% 3% 5% 0%;
+  }
 .container-fluid{
     padding: 3% 15%;
-    max-height: 46em;
+    max-height: 48em;
     overflow: hidden;
 }
 .rotate45{
-    -webkit-transform:rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    transform: rotate(20deg);
-}
-.hide-bottom{
-    position: relative;
-    top: 5%;
+    -webkit-transform:rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg);
 }
 
+.title-image{   
+    width: 60%;
+}
 #title{
     background-color: #ff4c68;
+}
+
+#features{
+
+    padding: 7% 15%;
+
+}
+.features-item{
+    text-align: center;
+    padding: 3%;
+}
+.features-icon{
+    color: #EF8172;
+    padding-bottom: 5%;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.features-desc{
+    color: #8f8f8f;
 }
