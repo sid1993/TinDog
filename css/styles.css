@@ -21,7 +21,14 @@ h3{
     line-height: 1.5;
     font-size: 3rem;
     color: #000;
+}
+h4{
 
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
 }
 .pad-top{
     padding-top: 5%;
@@ -93,7 +100,7 @@ h3{
 }
 
 #testimonials{
-    background-color: #EF8172;
+    background-color: #f39e93;
 }
 
 #testimonial-carousel{
@@ -113,4 +120,51 @@ h3{
 #pricing{
     padding: 5%;
     text-align: center;
+}
+
+.card-top{
+    border-color:#EF8172;
+}
+.btn-outline-primary {
+    color: #ff4c68;
+    border-color: #ff4c68;
+}
+.btn-outline-primary:hover{
+    background-color: #ff4c68;
+    border-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff4c68;
+    border-color: #fff;
+}
+.btn-primary:hover{
+    color: #ff4c68;
+    border-color: #ff4c68;
+    background-color: #fff;
+}
+
+#cta{
+    padding: 5%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#footer{
+    padding-bottom: 1%;
+    text-align: center;
+}
+.footer-icon{
+    padding: none;
+    border: none;
+    background-color: #fff;
+}
+.copyright{
+    color: grey;
+    font-size: .75em;
+}
+.social-media{
+    padding: 1%;
+    text-align: center
 }
