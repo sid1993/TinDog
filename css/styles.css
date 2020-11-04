@@ -1,154 +1,171 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+body {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
 }
 
 /*Headings*/
-h1,h3{
-    font-family: 'Montserrat-Black', sans-serif;
-    line-height: 1.5;
-    font-size: 3rem;
-    font-weight: 900;    
+h1,
+h3 {
+	font-family: "Montserrat-Black", sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+	font-weight: 900;
 }
 
-h2,h4{
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.5;
-    font-size: 3rem;
-    font-weight: 500;
+h2,
+h4 {
+	font-family: "Ubuntu", sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+	font-weight: 500;
 }
-
 
 /*Background Colours */
-#title,#testimonials,#cta,.btn-outline-primary:hover,.btn-primary{
-    background-color: #ff4c68;
+#title,
+#testimonials,
+#cta,
+.btn-outline-primary:hover,
+.btn-primary {
+	background-color: #ff4c68;
 }
 
-.btn-primary:hover,.footer-icon,#features{
-    background-color: #fff;
+.btn-primary:hover,
+.footer-icon,
+#features {
+	background-color: #fff;
 }
 
 /*Font Color*/
-.features-icon:hover,.btn-outline-primary,.btn-primary:hover{
-    color: #ff4c68;
+.features-icon:hover,
+.btn-outline-primary,
+.btn-primary:hover {
+	color: #ff4c68;
 }
 
-h1,h2,#testimonials,.btn-primary{
-    color: #fff;
+h1,
+h2,
+#testimonials,
+.btn-primary {
+	color: #fff;
 }
 
-h3,h4{
-    color: #000;
+h3,
+h4 {
+	color: #000;
 }
 
 /*Border Color*/
-.card-top{
-    border-color:#EF8172;
+.card-top {
+	border-color: #ef8172;
 }
-.btn-outline-primary,.btn-primary:hover{
-    border-color: #ff4c68;
+.btn-outline-primary,
+.btn-primary:hover {
+	border-color: #ff4c68;
 }
-.btn-outline-primary:hover,.btn-primary{
-    border-color: #fff;
+.btn-outline-primary:hover,
+.btn-primary {
+	border-color: #fff;
 }
 
 /*Padding All around*/
-#testimonial-carousel,.carousel-item,#pricing,#cta{
-    padding: 5%;
+#testimonial-carousel,
+.carousel-item,
+#pricing,
+#cta {
+	padding: 5%;
 }
 
-.press-images,.social-media{
-    padding: 1%;
+.press-images,
+.social-media {
+	padding: 1%;
 }
 
-.pad-top{
-    padding-top: 5%;
+.pad-top {
+	padding-top: 5%;
 }
 
 /*      Customized Sectional CSS   */
 
 /*Navbar Section*/
-.nav-item{
-    padding-bottom: 4%;
-    margin-left:5%;
-    margin-right:5%;
-    font-size: 1.5rem;
-  }
-  .navbar{
-      padding-left: 0%;
-  }
-
-  /*Title Section*/
-
-  .download-button{
-      margin: 5% 3% 5% 0%;
-  }
-.container-fluid{
-    padding: 3% 15% 7%;
-    max-height: 48em;
-    overflow: hidden;
+.nav-item {
+	padding-bottom: 4%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1.5rem;
+}
+.navbar {
+	padding-left: 0%;
 }
 
-.title-text{
-    text-align: left;
+/*Title Section*/
+
+.download-button {
+	margin: 5% 3% 5% 0%;
+}
+.container-fluid {
+	padding: 3% 15% 7%;
+	max-height: 48em;
+	overflow: hidden;
 }
 
-.title-image{   
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
+.title-text {
+	text-align: left;
 }
 
-@media (max-width : 1028px){
-    .title-image{
-        position: static;
-        transform: rotate(0);
-    }
-    .title-text{
-        text-align: center;
-    }
+.title-image {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+@media (max-width: 1028px) {
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+	.title-text {
+		text-align: center;
+	}
 }
 
 /*Feautures Section*/
 
-#features{
-    padding: 7% 15%;
-    position: relative;
+#features {
+	padding: 7% 15%;
+	position: relative;
 }
-.features-item{
-    padding: 3%;
+.features-item {
+	padding: 3%;
 }
-.features-icon{
-    color: #EF8172;
-    padding-bottom: 5%;
-}
-
-
-.features-title{
-    font-weight: bold;
-    font-size: 1.5rem;
+.features-icon {
+	color: #ef8172;
+	padding-bottom: 5%;
 }
 
-.features-desc{
-    color: #8f8f8f;
+.features-title {
+	font-weight: bold;
+	font-size: 1.5rem;
 }
 
+.features-desc {
+	color: #8f8f8f;
+}
 
 /*Testimonials Section*/
-.testimonial-image{
-    border-radius: 50%;
+.testimonial-image {
+	border-radius: 50%;
 }
 
 /*Footer Section*/
-#footer{
-    padding-bottom: 1%;
+#footer {
+	padding-bottom: 1%;
 }
-.footer-icon{
-    padding: none;
-    border: none;
+.footer-icon {
+	padding: none;
+	border: none;
 }
-.copyright{
-    color: grey;
-    font-size: .75em;
+.copyright {
+	color: grey;
+	font-size: 0.75em;
 }
