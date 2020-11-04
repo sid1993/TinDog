@@ -1,39 +1,73 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
-h1{
+
+/*Headings*/
+h1,h3{
     font-family: 'Montserrat-Black', sans-serif;
     line-height: 1.5;
     font-size: 3rem;
-    font-weight: 900;
-    color: white;
+    font-weight: 900;    
 }
 
-h2{
+h2,h4{
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.5;
     font-size: 3rem;
     font-weight: 500;
-    color: white;
 }
-h3{
-    font-family: 'Montserrat-Black', sans-serif;
-    line-height: 1.5;
-    font-size: 3rem;
+
+
+/*Background Colours */
+#title,#testimonials,#cta,.btn-outline-primary:hover,.btn-primary{
+    background-color: #ff4c68;
+}
+
+.btn-primary:hover,.footer-icon,#features{
+    background-color: #fff;
+}
+
+/*Font Color*/
+.features-icon:hover,.btn-outline-primary,.btn-primary:hover{
+    color: #ff4c68;
+}
+
+h1,h2,#testimonials,.btn-primary{
+    color: #fff;
+}
+
+h3,h4{
     color: #000;
 }
-h4{
 
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.5;
-    font-size: 2rem;
-    font-weight: 500;
-    color: black;
+/*Border Color*/
+.card-top{
+    border-color:#EF8172;
 }
+.btn-outline-primary,.btn-primary:hover{
+    border-color: #ff4c68;
+}
+.btn-outline-primary:hover,.btn-primary{
+    border-color: #fff;
+}
+
+/*Padding All around*/
+#testimonial-carousel,.carousel-item,#pricing,#cta{
+    padding: 5%;
+}
+
+.press-images,.social-media{
+    padding: 1%;
+}
+
 .pad-top{
     padding-top: 5%;
 }
 
+/*      Customized Sectional CSS   */
+
+/*Navbar Section*/
 .nav-item{
     padding-bottom: 4%;
     margin-left:5%;
@@ -43,6 +77,8 @@ h4{
   .navbar{
       padding-left: 0%;
   }
+
+  /*Title Section*/
   .download-button{
       margin: 5% 3% 5% 0%;
   }
@@ -58,17 +94,21 @@ h4{
     position: absolute;
     right: 30%;
 }
-#title{
-    background-color: #ff4c68;
+
+@media (max-width : 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
 }
 
+/*Feautures Section*/
+
 #features{
-    background-color: white;
     padding: 7% 15%;
     position: relative;
 }
 .features-item{
-    text-align: center;
     padding: 3%;
 }
 .features-icon{
@@ -76,9 +116,6 @@ h4{
     padding-bottom: 5%;
 }
 
-.features-icon:hover{
-    color: #ff4c68;
-}
 
 .features-title{
     font-weight: bold;
@@ -89,87 +126,21 @@ h4{
     color: #8f8f8f;
 }
 
-@media (max-width : 1028px){
-    .title-image{
-        position: static;
-        transform: rotate(0);
-    }
-    #title{
-        text-align: center;
-    }
-}
 
-#testimonials{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-#testimonial-carousel{
-    padding: 5%;
-}
-
+/*Testimonials Section*/
 .testimonial-image{
     border-radius: 50%;
 }
-.carousel-item{
-    text-align: center;
-    padding: 5%;
-}
-#press{
-    text-align: center;
-}
-.press-images{
-    padding: 1%;
-}
 
-#pricing{
-    padding: 5%;
-    text-align: center;
-}
-
-.card-top{
-    border-color:#EF8172;
-}
-.btn-outline-primary {
-    color: #ff4c68;
-    border-color: #ff4c68;
-}
-.btn-outline-primary:hover{
-    background-color: #ff4c68;
-    border-color: #fff;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #ff4c68;
-    border-color: #fff;
-}
-.btn-primary:hover{
-    color: #ff4c68;
-    border-color: #ff4c68;
-    background-color: #fff;
-}
-
-#cta{
-    padding: 5%;
-    text-align: center;
-    background-color: #ff4c68;
-}
-
+/*Footer Section*/
 #footer{
     padding-bottom: 1%;
-    text-align: center;
 }
 .footer-icon{
     padding: none;
     border: none;
-    background-color: #fff;
 }
 .copyright{
     color: grey;
     font-size: .75em;
-}
-.social-media{
-    padding: 1%;
-    text-align: center
 }
