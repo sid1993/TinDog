@@ -33,29 +33,25 @@ h2{
       margin: 5% 3% 5% 0%;
   }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     max-height: 48em;
     overflow: hidden;
-}
-.rotate45{
-    -webkit-transform:rotate(25deg);
-    -moz-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    -o-transform: rotate(25deg);
-    transform: rotate(25deg);
 }
 
 .title-image{   
     width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 #title{
     background-color: #ff4c68;
 }
 
 #features{
-
+    background-color: white;
     padding: 7% 15%;
-
+    position: relative;
 }
 .features-item{
     text-align: center;
@@ -77,4 +73,32 @@ h2{
 
 .features-desc{
     color: #8f8f8f;
+}
+
+@media (max-width : 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#testimonials{
+    background-color: #EF8172;
+}
+
+#testimonial-carousel{
+    padding: 5%;
+}
+.carousel-item{
+    text-align: center;
+    padding: 5%;
+}
+#press{
+    text-align: center;
+}
+.press-images{
+    padding: 1%;
 }
