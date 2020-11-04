@@ -101,10 +101,15 @@ h4{
 
 #testimonials{
     background-color: #ff4c68;
+    color: #fff;
 }
 
 #testimonial-carousel{
     padding: 5%;
+}
+
+.testimonial-image{
+    border-radius: 50%;
 }
 .carousel-item{
     text-align: center;
