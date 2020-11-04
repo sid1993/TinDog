@@ -79,6 +79,7 @@ h3,h4{
   }
 
   /*Title Section*/
+
   .download-button{
       margin: 5% 3% 5% 0%;
   }
@@ -86,6 +87,10 @@ h3,h4{
     padding: 3% 15% 7%;
     max-height: 48em;
     overflow: hidden;
+}
+
+.title-text{
+    text-align: left;
 }
 
 .title-image{   
@@ -99,6 +104,9 @@ h3,h4{
     .title-image{
         position: static;
         transform: rotate(0);
+    }
+    .title-text{
+        text-align: center;
     }
 }
 
